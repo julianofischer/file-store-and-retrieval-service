@@ -1,0 +1,2 @@
+docker build -t myserviceimage .
+docker run -d --name myservicecontainer -p 8000:8000 myserviceimage

@@ -1,0 +1,68 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "file-store-and-retrieval-service",
+    "dateExported": "2023-04-15T01:42:09.197Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "56e00835-e41f-4c8c-bacc-fc211b6ece23",
+            "colId": "a2e6304b-e610-4374-af4f-b4646385117f",
+            "containerId": "",
+            "name": "localhost:8000/uploadfile/",
+            "url": "localhost:8000/upload/",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-04-15T01:41:49.911Z",
+            "modified": "2023-04-15T01:41:49.911Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "file",
+                        "value": "",
+                        "isDisabled": true
+                    }
+                ],
+                "files": [
+                    {
+                        "name": "file",
+                        "value": "/Users/jnaves/Downloads/ALVARÁ JULIANO.pdf"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "6d051de4-e477-42f1-851d-3070d1e863c8",
+            "colId": "a2e6304b-e610-4374-af4f-b4646385117f",
+            "containerId": "",
+            "name": "localhost:8000/get/2b8465f-af5c-44ef-b771-069787c07632",
+            "url": "localhost:9000/get/afcc66f5-39bc-417f-8d1c-2d817ede04ae",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-04-15T01:41:56.752Z",
+            "modified": "2023-04-15T01:41:56.752Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9aaf5809-8486-4921-9c28-f3174fde8734",
+            "colId": "a2e6304b-e610-4374-af4f-b4646385117f",
+            "containerId": "",
+            "name": "localhost:8000/metadata/26b8465f-af5c-4ef-b771-069787c07632",
+            "url": "localhost:9000/metadata/afcc66f5-39bc-417f-8d1c-2d817ede04ae",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-04-15T01:42:02.501Z",
+            "modified": "2023-04-15T01:42:02.501Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
